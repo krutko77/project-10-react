@@ -25,7 +25,7 @@ function Headliner() {
                <span className="label">BBC NEWS</span>
                <div className="time">
                   <img className="time-icon" src={clockIcon} alt="clock-icon" />
-                  <span className="time-text">2:00 pm</span>
+                  <span className="time-text text">2:00 pm</span>
                </div>
             </div>
          </div>
