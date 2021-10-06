@@ -1,12 +1,15 @@
 .headliner {
-   display: flex;
-   justify-content: space-between;
-   width: 336px;
-   height: 96px;
+   display: flex;   
+   align-items: center;
 }
 
 .thumbnail-img {
+   margin-right: 24px;
    border-radius: 12px;
+}
+
+.info {
+   width: 216px;
 }
 
 .title {
@@ -19,6 +22,10 @@
 .rating {
    display: flex;
    margin-bottom: 13px;
+}
+
+.dislike-icon {
+   margin-bottom: -3px;
 }
 
 .like-icon,
@@ -54,7 +61,6 @@
 .wrapper {
    display: flex;
    justify-content: space-between;
-   padding-left: 2px;
 }
 
 .label {
@@ -64,5 +70,5 @@
    font-weight: 600;
    line-height: 145%;
    color: #503E9D;
-   padding: 4px 7px;
+   padding: 4px 8px;
 }
