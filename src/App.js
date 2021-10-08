@@ -1,6 +1,5 @@
-import React from 'react';
 import './App.css';
-import Headliner from './components/headliner/Headliner';
+import Headliner from './components/headliner/Headliner.jsx';
 import img1 from './assets/images/img-1.jpg';
 import img2 from './assets/images/img-2.jpg';
 import img3 from './assets/images/img-3.jpg';

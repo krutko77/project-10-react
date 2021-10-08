@@ -1,9 +1,9 @@
 .headliner {
-   display: flex;   
+   display: flex;
    align-items: center;
 }
 
-.thumbnail-img {
+.thumbnailImg {
    margin-right: 24px;
    border-radius: 12px;
 }
@@ -24,16 +24,17 @@
    margin-bottom: 13px;
 }
 
-.dislike-icon {
+.dislikeIcon {
    margin-bottom: -3px;
 }
 
-.like-icon,
-.dislike-icon {
+.likeIcon,
+.dislikeIcon {
    margin-right: 4px;
 }
 
-.text {
+.text,
+.timeText {
    font-size: 12px;
    font-weight: 400;
    line-height: 150%;
@@ -44,7 +45,7 @@
    align-items: center;
 }
 
-.time-icon {
+.timeIcon {
    margin-right: 7px;
 }
 
@@ -54,7 +55,7 @@
 }
 
 .dislike,
-.time-text {
+.timeText {
    color: #878787;
 }
 
