@@ -10,17 +10,29 @@ import img6 from './assets/images/img-6.jpg';
 function App() {
   return (
     <div className="App">
-      <header></header>
-      <aside></aside>
-
-
-      <Headliner title="Hate speech vs free speech" thumbnail={img1} label="BBC NEWS" likes="10.8k" dislikes="1.4k" time="2:00 pm"/> 
-      <Headliner title="Ontario Liberal leadership"thumbnail={img2} label="BBC NEWS" likes="10.8k" dislikes="3.4k" time="4:00 pm"/> 
-      <Headliner title="Victim of Scarborough"thumbnail={img3} label="BBC NEWS" likes="20.8k" dislikes="1.1k" time="6:00 pm"/> 
-      <Headliner title="Mother who left her baby"thumbnail={img4} label="ABC NEWS" likes="0" dislikes="20k" time="8:00 pm"/> 
-      <Headliner title="Mother of Stefanie Rengel"thumbnail={img5} label="CW6 NEWS" likes="10.8k" dislikes="1.4k" time="10:00 pm"/> 
-      <Headliner title="World Cup: Popular items"thumbnail={img6} label="CNN NEWS" likes="10.8k" dislikes="1.4k" time="11:00 pm"/>     
-    </div>
+      <header className="header"></header>
+      <aside className="sidebar"></aside>
+      <main className="main">
+         <section className="">
+         <h2 className="block-title">Explore Channels</h2> 
+         </section>
+         <section className="headliners">
+            <h2 className="block-title">Today’s Headlines</h2> 
+            <div className="block-content">
+               <Headliner title="Hate speech vs free speech" thumbnail={img1} label="BBC NEWS" likes="10.8k" dislikes="1.4k" time="2:00 pm"/> 
+               <Headliner title="Ontario Liberal leadership"thumbnail={img2} label="BBC NEWS" likes="10.8k" dislikes="3.4k" time="4:00 pm"/> 
+               <Headliner title="Victim of Scarborough"thumbnail={img3} label="BBC NEWS" likes="20.8k" dislikes="1.1k" time="6:00 pm"/> 
+               <Headliner title="Mother who left her baby"thumbnail={img4} label="ABC NEWS" likes="0" dislikes="20k" time="8:00 pm"/> 
+               <Headliner title="Mother of Stefanie Rengel"thumbnail={img5} label="CW6 NEWS" likes="10.8k" dislikes="1.4k" time="10:00 pm"/> 
+               <Headliner title="World Cup: Popular items"thumbnail={img6} label="CNN NEWS" likes="10.8k" dislikes="1.4k" time="11:00 pm"/>   
+            </div>    
+         </section>
+         <section className="">
+         <h2 className="block-title">Featured News</h2> 
+         </section>         
+      </main>     
+      <footer></footer>
+    </div>    
   );
 }
 
