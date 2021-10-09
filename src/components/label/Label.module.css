@@ -1,0 +1,9 @@
+.label {
+   background: rgba(80, 62, 157, 0.1);
+   border-radius: 4px;
+   font-size: 11px;
+   font-weight: 600;
+   line-height: 145%;
+   color: #503E9D;
+   padding: 4px 8px;
+}

@@ -12,13 +12,6 @@
    width: 216px;
 }
 
-.title {
-   font-size: 16px;
-   font-weight: 700;
-   line-height: 150%;
-   margin-bottom: 8px;
-}
-
 .rating {
    display: flex;
    margin-bottom: 13px;
@@ -33,20 +26,10 @@
    margin-right: 4px;
 }
 
-.text,
-.timeText {
+.text {
    font-size: 12px;
    font-weight: 400;
    line-height: 150%;
-}
-
-.time {
-   display: flex;
-   align-items: center;
-}
-
-.timeIcon {
-   margin-right: 7px;
 }
 
 .like {
@@ -54,8 +37,7 @@
    color: #626264;
 }
 
-.dislike,
-.timeText {
+.dislike {
    color: #878787;
 }
 
@@ -64,12 +46,3 @@
    justify-content: space-between;
 }
 
-.label {
-   background: rgba(80, 62, 157, 0.1);
-   border-radius: 4px;
-   font-size: 11px;
-   font-weight: 600;
-   line-height: 145%;
-   color: #503E9D;
-   padding: 4px 8px;
-}
