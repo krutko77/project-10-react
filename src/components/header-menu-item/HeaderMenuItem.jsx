@@ -4,8 +4,12 @@ import s from './HeaderMenuItem.module.css'
 function HeaderMenuItem(props) {
    return (
      <div className={s.menuItem}>
-        <img className={s.imgMenu} src={props.img} alt="img" />
-        <span className={s.textMenu}>{props.text}</span>
+        <img className={s.menuImg} src={props.img} alt="img" />
+        <span className={s.menuText}>{props.text}</span>
+        <div className={s.buttons}>
+           <button className={s.buttonUp}></button>
+           <button className={s.buttonDown}></button>
+        </div>
      </div>
    );
 }

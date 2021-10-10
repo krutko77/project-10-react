@@ -7,10 +7,13 @@
 .headerMenu {
    list-style-type: none;
    display: inline-flex;
-   width: 490px;
 }
 
 .headerForm {
    display: inline;
 }
 
+.rightBlock {
+   display: flex;
+   align-items: center;
+}

@@ -14,13 +14,15 @@ function Header() {
             <li><HeaderMenuItem img={img2} text="Analysis"/></li>
             <li><HeaderMenuItem img={img3} text="Monthly"/></li>
          </ul>
-         <div className={s.headerForm}>
-         <form action="">
-            <input type="text" />
-            <button></button>
-         </form>
-         </div>
-         <img src={img4} alt="img" />
+         <div className={s.rightBlock}>
+            <div className={s.headerForm}>
+               <form action="">
+                  <input type="text" />
+                  <button></button>
+               </form>
+            </div>
+            <img src={img4} alt="img" />
+         </div>         
       </div>   
    );
 }
