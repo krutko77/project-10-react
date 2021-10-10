@@ -1,0 +1,14 @@
+.menuItem {
+   display: inline-flex;
+   align-items: center;
+}
+
+.textMenu {
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 170%;
+}
+
+.imgMenu {
+   margin-right: 12px;
+}

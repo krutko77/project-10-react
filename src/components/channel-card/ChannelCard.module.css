@@ -1,0 +1,23 @@
+.channelCard {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px 0 16px;
+   background-color: #F7F7F7;
+   border-radius: 14px;
+   width: 100%;   
+}
+
+.wrapImg {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 113px;
+}
+
+.label {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 150%;
+}

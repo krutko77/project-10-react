@@ -1,0 +1,19 @@
+.imgNews {
+   border-radius: 20px;
+   margin-bottom: 12px;
+}
+
+.contentNews {
+   display: flex;
+   justify-content: space-between;
+}
+
+.infoNews {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.labelNews {
+   margin-bottom: 8px;
+}
