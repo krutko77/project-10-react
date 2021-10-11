@@ -1,0 +1,5 @@
+.channelsNewsWrap {
+   display: grid;
+   grid-template-columns: repeat(6, 152px);
+   gap: 32px;
+}
