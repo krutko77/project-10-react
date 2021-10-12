@@ -10,20 +10,18 @@ function Header() {
    return (
       <div className={s.headerWrap}>
          <ul className={s.headerMenu}>
-            <li><HeaderMenuItem img={img1} text="San Francisco, California"/></li>
-            <li><HeaderMenuItem img={img2} text="Analysis"/></li>
-            <li><HeaderMenuItem img={img3} text="Monthly"/></li>
+            <li className={s.listItem}><HeaderMenuItem img={img1} text="San Francisco, California" /></li>
+            <li className={s.listItem}><HeaderMenuItem img={img2} text="Analysis" /></li>
+            <li className={s.listItem}><HeaderMenuItem img={img3} text="Monthly" /></li>
          </ul>
          <div className={s.rightBlock}>
-            <div className={s.headerForm}>
-               <form action="">
-                  <input type="text" />
-                  <button></button>
-               </form>
-            </div>
+            <form className={s.headerForm} action="#">
+               <input className={s.formInput} placeholder="Search for anything…" type="text" />
+               <button className={s.formButton} type="submit"></button>
+            </form>
             <img src={img4} alt="img" />
-         </div>         
-      </div>   
+         </div>
+      </div>
    );
 }
 

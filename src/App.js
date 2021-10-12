@@ -6,26 +6,29 @@ import FeaturedNewsWrap from "./components/featured-news-wrap/FeaturedNewsWrap.j
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
-         <Header/>
-      </header>
-      <aside className="sidebar"></aside>
-      <main className="main">
-         <section className="channels-news">
-            <h2 className="block-title">Explore Channels</h2> 
-            <ChannelsNewsWrap/>
-         </section>
-         <section className="headlines">
-            <h2 className="block-title">Today’s Headlines</h2> 
-            <HeadlinesWrap/>
-         </section>
-         <section className="featured-news">
-         <h2 className="block-title">Featured News</h2> 
-         <FeaturedNewsWrap/>
-         </section>         
-      </main>     
-   </div>    
+     <div className="container">
+        <div className="App">
+            <header className="header">
+               <Header/>
+            </header>
+            <aside className="sidebar"></aside>
+            <main className="main">
+               <section className="channels-news">
+                  <h2 className="block-title">Explore Channels</h2> 
+                  <ChannelsNewsWrap/>
+               </section>
+               <section className="headlines">
+                  <h2 className="block-title">Today’s Headlines</h2> 
+                  <HeadlinesWrap/>
+               </section>
+               <section className="featured-news">
+               <h2 className="block-title">Featured News</h2> 
+               <FeaturedNewsWrap/>
+               </section>         
+            </main>     
+         </div>    
+      </div>
+    
   );
 }
 
