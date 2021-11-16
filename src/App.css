@@ -1,23 +1,12 @@
 .App {
    background-color: #F2F2F2;
-   /* height: 100vh; */
-   max-width: 1440px;
-   margin: 0 auto;
+   height: 100vh;
    display: grid;
    grid-template-columns: 304px 1fr;
    grid-template-rows: 100px 1fr;
    grid-template-areas:
       "s h"
       "s c";
-}
-
-.container {
-   max-width: 1440px;
-}
-
-.header {
-   grid-area: h;
-   padding: 32px 32px 0;
 }
 
 .sidebar {

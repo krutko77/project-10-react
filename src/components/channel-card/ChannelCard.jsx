@@ -4,9 +4,9 @@ function ChannelCard(props) {
    return (
       <div className={s.channelCard}>
          <div className={s.wrapImg}>
-            <img className={s.logoImg} src={props.logo} alt="logo" />
+            <img className={s.logoImg} src={props.channelData.logo} alt="logo" />
          </div>
-         <span className={s.label}>{props.label}</span>
+         <span className={s.label}>{props.channelData.label}</span>
       </div>
    );
 }

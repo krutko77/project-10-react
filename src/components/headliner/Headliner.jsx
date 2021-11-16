@@ -3,14 +3,14 @@ import likeIcon from './../../assets/images/like.svg';
 import disLikeIcon from './../../assets/images/dislike.svg';
 import Time from './../time/Time';
 import Label from './../label/Label';
-import ArticleHeader from '../article-header/ArticleHeader';
+import ArticleHeader from '../banner/Banner';
 
 function Headliner(props) {
    return (
       <article className={s.headliner}>
          <img className={s.thumbnailImg} src={props.thumbnail} alt="thumbnail-img" />
          <div className={s.info}>
-            <ArticleHeader title={props.title}/>
+            <h3 className={s.title}>{props.tile}</h3>
             <div className={s.rating}>
                <div className={s.like}>
                   <img className={s.likeIcon} src={likeIcon} alt="like" />
