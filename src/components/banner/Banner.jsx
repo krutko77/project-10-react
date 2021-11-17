@@ -1,9 +1,11 @@
-import s from './ArticleHeader.module.css'
+import s from './Banner.module.css'
 
-function ArticleHeader(props) {
+function Banner(props) {
    return (      
-<h1 className={s.title}>{props.title}</h1>      
+   <div>
+      
+   </div>
    );
 }
 
-export default ArticleHeader;
+export default Banner;

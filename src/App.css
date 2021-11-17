@@ -17,7 +17,7 @@
 
 .main {
    grid-area: c;
-   padding: 10px 32px;
+   padding-top: 10px;
 }
 
 .block-title {

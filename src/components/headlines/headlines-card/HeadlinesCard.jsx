@@ -1,16 +1,16 @@
-import s from './Headliner.module.css';
+import s from './HeadlinesCard.module.css';
 import likeIcon from './../../assets/images/like.svg';
 import disLikeIcon from './../../assets/images/dislike.svg';
-import Time from './../time/Time';
-import Label from './../label/Label';
-import ArticleHeader from '../banner/Banner';
+import Time from '../../time/Time';
+import Label from '../../label/Label';
 
-function Headliner(props) {
+
+function HeadlinesCard(props) {
    return (
       <article className={s.headliner}>
          <img className={s.thumbnailImg} src={props.thumbnail} alt="thumbnail-img" />
          <div className={s.info}>
-            <h3 className={s.title}>{props.tile}</h3>
+            <h3 className={s.title}>{props.title}</h3>
             <div className={s.rating}>
                <div className={s.like}>
                   <img className={s.likeIcon} src={likeIcon} alt="like" />
@@ -30,4 +30,4 @@ function Headliner(props) {
    );
 }
 
-export default Headliner;
+export default HeadlinesCard;

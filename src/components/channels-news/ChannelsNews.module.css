@@ -1,5 +1,13 @@
-.channelsNews
- {
+.channelsNews {
+   margin-bottom: 38px;
+}
+
+.container {
+   max-width: 1136px;
+   padding: 0 32px;
+}
+
+.channelsCards {
    display: grid;
    grid-template-columns: repeat(6, 152px);
    gap: 32px;
