@@ -1,6 +1,7 @@
-.headliner {
+.headlinesCard {
    display: flex;
    align-items: center;
+   margin-bottom: 38px;
 }
 
 .title {
