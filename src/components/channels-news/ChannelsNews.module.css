@@ -9,7 +9,6 @@
 
 .channelsCards {
    display: grid;
-   grid-template-columns: repeat(6, 152px);
+   grid-template-columns: repeat(6, 1fr);
    gap: 32px;
 }
-

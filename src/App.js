@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom'; 
 import './App.css';
 import Header from './components/header/Header.jsx';
 import Navigation from './components/navigation/Navigation.jsx';
@@ -6,6 +7,8 @@ import ChannelsNews from './components/channels-news/ChannelsNews.jsx';
 import Headlines from './components/headlines/Headlines.jsx';
 import FeaturedNews from "./components/featured-news/FeaturedNews.jsx";
 
+// главный логотип
+import logo from './assets/images/logo-main.svg';
 
 // логотипы для секции ChannelsNews
 import logo1 from './assets/images/logo-1.png';
@@ -29,7 +32,7 @@ import newsImg2 from './assets/images/image-2.jpg';
 import newsImg3 from './assets/images/image-3.jpg';
 
 // данные для header
-const headerLabelData = {
+const headerData = {
       label1: "San Francisco, California",   
       label2: "Analysis",   
       label3: "Monthly"
@@ -140,9 +143,11 @@ const FeaturedNewsData = {
 
 function App() {
   return (
+   <BrowserRouter>
         <div className="App">
-               <Header headerData={headerLabelData}/>
+               <Header headerData={headerData}/>
             <aside className="sidebar">
+               <img className="logo" src={logo} alt="logo" />
                <Navigation />
                <Banner />
             </aside>
@@ -151,7 +156,8 @@ function App() {
                <Headlines cardsData={HeadlinesData} />
                <FeaturedNews cardsData={FeaturedNewsData} />                    
             </main>     
-         </div>         
+         </div>     
+   // </BrowserRouter>    
   );
 }
 

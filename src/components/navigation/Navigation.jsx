@@ -1,9 +1,20 @@
-import s from './Navigation.module.css'
+import s from './NavItem.module.css';
+import NavItem from './nav-item/NavItem.jsx';
 
-function Navigation(props) {
+function Navigation() {
    return (      
       <nav>
-
+         <div className={s.navwrap}>
+            <ul className={s.navList}>
+               <li><NavItem /></li>
+               <li><NavItem /></li>
+               <li><NavItem /></li>
+               <li><NavItem /></li>
+               <li><NavItem /></li>
+               <li><NavItem /></li>
+            </ul>
+            <NavItem />
+         </div>
       </nav>
    );
 }

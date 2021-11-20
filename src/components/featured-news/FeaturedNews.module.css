@@ -5,7 +5,6 @@
 
 .FeaturedNewsWrap {
    display: grid;
-   grid-template-columns: repeat(3, 336px);
+   grid-template-columns: repeat(3, 1fr);
    gap: 32px;
 }
-
