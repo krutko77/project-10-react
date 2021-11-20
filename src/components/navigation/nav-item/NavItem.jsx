@@ -6,8 +6,8 @@ import { NavLink } from 'react-router-dom';
 function NavItem(props) {
    return (      
       <NavLink className={s.navLink} to="/">
-         <img src={props.img} alt="icon" />
-         <span>{props.label}</span>
+         <img className={s.icon} src={props.itemData.img} alt="icon" />
+         <span className={s.text}>{props.itemData.label}</span>
       </NavLink>
    );
 }
