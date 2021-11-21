@@ -1,9 +1,10 @@
 .navWrap {
-   height: 485px;
+   height: 500px;
+   padding-bottom: 15px;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
    border-bottom: 2px solid #E8E8E8;
+   margin-bottom: 30px;
 }
-

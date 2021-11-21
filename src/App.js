@@ -31,6 +31,9 @@ import newsImg1 from './assets/images/image-1.jpg';
 import newsImg2 from './assets/images/image-2.jpg';
 import newsImg3 from './assets/images/image-3.jpg';
 
+// картинка для рекламного баннера
+import imgBanner from './assets/images/banner/icon-inside.svg';
+
 // данные для header
 const headerData = {
       label1: "San Francisco, California",   
@@ -140,6 +143,15 @@ const FeaturedNewsData = {
    }
 }
 
+// данные для рекламного баннера
+const bannerData = {
+   img: imgBanner,
+   offer: "Subscribe to our new plan ",
+   price: "$25",
+   limitation: "It is a limited time offer that will expire soon.",
+   label: "Subscribe now"
+}
+
 
 function App() {
   return (
@@ -149,7 +161,7 @@ function App() {
             <aside className="sidebar">
                <img className="logo" src={logo} alt="logo" />
                <Navigation />
-               <Banner />
+               <Banner bannerData={bannerData} />
             </aside>
             <main className="main">
                <ChannelsNews channelsData={ChannelsNewsData}/>
