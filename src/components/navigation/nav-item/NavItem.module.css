@@ -4,7 +4,7 @@
    width: 272px;
    height: 56px;
    border-radius: 12px;
-   padding-left: 16px;
+   padding: 0 16px 0;
    font-size: 16px;
    line-height: 150%;
 }
@@ -21,4 +21,19 @@
 
 .iconSvg {
    margin-right: 24px;   
+}
+
+.counter {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color: #503E9D;
+   color: #F7FAFC;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 130%;
 }

@@ -23,7 +23,8 @@ const data5 = {
    name: "icon05",
    label: "Messages",
    counter: 2,
-   style={{display: "flex"}}
+   style: {
+   display: "flex"}
 }
 const data6 = {
    name: "icon06",

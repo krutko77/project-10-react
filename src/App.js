@@ -157,7 +157,7 @@ function App() {
                <FeaturedNews cardsData={FeaturedNewsData} />                    
             </main>     
          </div>     
-   // </BrowserRouter>    
+   </BrowserRouter>    
   );
 }
 
