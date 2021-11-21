@@ -15,14 +15,10 @@
    font-weight: 700;
 }
 
-   svg:hover {
-      fill: red;
-   }
-
-.icon {
-   margin-right: 24px;
+.navLink:hover>.iconSvg {
+   fill: #503E9D;
 }
 
-.text {}
-
-.text:hover {}
+.iconSvg {
+   margin-right: 24px;   
+}

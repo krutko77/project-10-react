@@ -2,9 +2,7 @@ import s from './Banner.module.css'
 
 function Banner(props) {
    return (      
-   <div>
-      
-   </div>
+     <div></div>   
    );
 }
 

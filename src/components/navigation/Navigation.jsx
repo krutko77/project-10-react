@@ -1,47 +1,41 @@
 import s from './Navigation.module.css';
 import NavItem from './nav-item/NavItem.jsx';
 
-// иконки для кнопок навигации
-import icon1 from './../../assets/images/navigation/home-icon.svg';
-import icon2 from './../../assets/images/navigation/explore-icon.svg';
-import icon3 from './../../assets/images/navigation/saved-icon.svg';
-import icon4 from './../../assets/images/navigation/subscriptions-icon.svg';
-import icon5 from './../../assets/images/navigation/messages-icon.svg';
-import icon6 from './../../assets/images/navigation/settings-icon.svg';
-import icon7 from './../../assets/images/navigation/logout-icon.svg';
 
 // данные для элементов навигиции
 const data1 = {
-   img: icon1,
+   name: "icon01",
    label: "Home"
 }
 const data2 = {
-   img: icon2,
+   name: "icon02",
    label: "Explore"
 }
 const data3 = {
-   img: icon3,
+   name: "icon03",
    label: "Saved"
 }
 const data4 = {
-   img: icon4,
+   name: "icon04",
    label: "Subscriptions"
 }
 const data5 = {
-   img: icon5,
-   label: "Messages"
+   name: "icon05",
+   label: "Messages",
+   counter: 2,
+   style={{display: "flex"}}
 }
 const data6 = {
-   img: icon6,
+   name: "icon06",
    label: "Settings"
 }
 const data7 = {
-   img: icon7,
+   name: "icon07",
    label: "Logout"
 }
 
 
-function Navigation() {
+function Navigation(props) {
    return (
       <nav>
          <div className={s.navWrap}>
