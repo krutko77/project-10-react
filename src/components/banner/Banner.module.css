@@ -1,3 +1,33 @@
+.wrapper {
+   position:relative;
+}
+
+.wrapper::after {   
+   content: "";
+   position: absolute;
+   top: 24px;
+   left: 32px;
+   width: 176px;
+   height: 324px;
+   border-radius: 20px;
+   background-color:#FFFFFF;
+   box-shadow: 0px 24px 64px -4px rgba(0, 0, 0, 0.04);
+   z-index: 0;
+}
+
+.wrapper::before {   
+   content: "";
+   position: absolute;
+   top: 12px;
+   left: 16px;
+   width: 208px;
+   height: 324px;
+   border-radius: 20px;
+   background-color:#FFFFFF;
+   box-shadow: 0px 24px 64px -4px rgba(0, 0, 0, 0.04);
+   z-index: 1;
+}
+
 .banner {
    display: flex;
    flex-direction: column;
@@ -7,6 +37,7 @@
    background-color: #FFFFFF;
    position: relative;
    box-shadow: 0px 32px 96px -8px rgba(0, 0, 0, 0.06);
+   z-index: 3;
 }
 
 .closeBtn {
@@ -72,3 +103,4 @@
 .label {
    margin-right: 12px;
 }
+

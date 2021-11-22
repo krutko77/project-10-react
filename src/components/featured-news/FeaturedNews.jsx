@@ -1,23 +1,21 @@
 import s from './FeaturedNews.module.css';
-import SectionHeader from './../section-header/SectionHeader.jsx';
+import SectionTitle from '../section-title/SectionTitle.jsx';
 import NewsCard from './news-card/NewsCard.jsx';
 
 
-function FeaturedNewsWrap(props) {
+function FeaturedNews(props) {
    return (
       <section>
-         <div className={s.container}>
-            <div>
-               <SectionHeader title={"Featured News"} />
-            </div>
-            <div className={s.FeaturedNewsWrap}>
-               <NewsCard cardData={props.cardsData.data1}/>
-               <NewsCard cardData={props.cardsData.data2}/>
-               <NewsCard cardData={props.cardsData.data3}/>
-            </div>
+         <div>
+            <SectionTitle title={"Featured News"} />
+         </div>
+         <div className={s.FeaturedNews}>
+            <NewsCard cardData={props.cardsData.data1} />
+            <NewsCard cardData={props.cardsData.data2} />
+            <NewsCard cardData={props.cardsData.data3} />
          </div>
       </section>
    );
 }
 
-export default FeaturedNewsWrap;
+export default FeaturedNews;
