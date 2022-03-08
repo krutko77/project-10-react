@@ -1,5 +1,5 @@
 .container {
-   max-width: 1072px;   
+   max-width: 1072px;
 }
 
 .wrap {
@@ -12,11 +12,19 @@
 .title {
    font-size: 24px;
    font-weight: 700;
-   line-height: 120%;   
+   line-height: 120%;
 }
 
 .link {
    margin-top: 5px;
+}
+
+.link:hover {
+   opacity: 0.7;
+}
+
+.link:active {
+   transform: translate(1px, 2px);
 }
 
 .linkText {
