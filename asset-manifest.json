@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/project-10-react/static/css/main.ed76a457.chunk.css",
-    "main.js": "/project-10-react/static/js/main.18655d98.chunk.js",
-    "main.js.map": "/project-10-react/static/js/main.18655d98.chunk.js.map",
+    "main.css": "/project-10-react/static/css/main.de12ca9c.chunk.css",
+    "main.js": "/project-10-react/static/js/main.6327187b.chunk.js",
+    "main.js.map": "/project-10-react/static/js/main.6327187b.chunk.js.map",
     "runtime-main.js": "/project-10-react/static/js/runtime-main.1b7bef90.js",
     "runtime-main.js.map": "/project-10-react/static/js/runtime-main.1b7bef90.js.map",
     "static/js/2.1ef1e533.chunk.js": "/project-10-react/static/js/2.1ef1e533.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6a62bad9.chunk.js": "/project-10-react/static/js/3.6a62bad9.chunk.js",
     "static/js/3.6a62bad9.chunk.js.map": "/project-10-react/static/js/3.6a62bad9.chunk.js.map",
     "index.html": "/project-10-react/index.html",
-    "static/css/main.ed76a457.chunk.css.map": "/project-10-react/static/css/main.ed76a457.chunk.css.map",
+    "static/css/main.de12ca9c.chunk.css.map": "/project-10-react/static/css/main.de12ca9c.chunk.css.map",
     "static/js/2.1ef1e533.chunk.js.LICENSE.txt": "/project-10-react/static/js/2.1ef1e533.chunk.js.LICENSE.txt",
     "static/media/arrow-right.58307e25.svg": "/project-10-react/static/media/arrow-right.58307e25.svg",
     "static/media/clock.de86142c.svg": "/project-10-react/static/media/clock.de86142c.svg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.1b7bef90.js",
     "static/js/2.1ef1e533.chunk.js",
-    "static/css/main.ed76a457.chunk.css",
-    "static/js/main.18655d98.chunk.js"
+    "static/css/main.de12ca9c.chunk.css",
+    "static/js/main.6327187b.chunk.js"
   ]
 }
