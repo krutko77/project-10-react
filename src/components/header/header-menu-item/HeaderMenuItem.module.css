@@ -18,22 +18,20 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   height: 16px;
+   height: 17px;
    margin-right: 23px;
 }
 
 .buttonUp,
 .buttonDown {
+   display: flex;
    width: 10px;
    height: 6px;
    border: none;
    cursor: pointer;
 }
 
-.buttonUp {
-   background: url("./../../../assets/images/up-Icon.png");
+.buttons svg:hover path {
+   fill: #0068FF;
 }
 
-.buttonDown {
-   background: url("./../../../assets/images/down-Icon.png");
-}

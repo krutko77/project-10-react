@@ -40,6 +40,18 @@
    background-image: url("./../../assets/images/search-Icon.png");
 }
 
+input {
+   outline: none;   
+}
+
+input:focus {
+   box-shadow: 0 0 10px 0 #32323240;   
+}
+
+input:focus::placeholder {
+   color: transparent;
+}
+
 .formInput {
    width: 385px;
    border: none;
@@ -47,6 +59,11 @@
    background-color: #F7F7F7;
    margin-right: 16px;
    padding-left: 50px;
+   transition: 0.3s ease 0.1s; 
+}
+
+.formInput:hover {
+   box-shadow: 0 0 10px 0 #32323240;
 }
 
 .formInput::placeholder {
